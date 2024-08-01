@@ -1,0 +1,17 @@
+.slick-slide {
+    outline: none;
+}
+
+.desktop-slider {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .mobile-slider {
+        display: none;
+    }
+
+    .desktop-slider {
+        display: block;
+    }
+}
